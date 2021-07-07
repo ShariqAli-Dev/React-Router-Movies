@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-
+// use params for id
 export default function Movie(props) {
   console.log(props);
   const [movie, setMovie] = useState();
